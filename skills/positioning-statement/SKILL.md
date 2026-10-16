@@ -70,6 +70,8 @@ The five-part sequence in steps 2 through 6 follows the positioning method **Apr
 **Your description:** <what the person running the skill wrote about the product, in their words>
 **Validated against real buyer conversations:** yes / no, and how many
 
+**In one line:** <one sentence, at most 20 words: what the product is, for whom, and the one reason to pick it over the main alternative>
+
 ## Positioning statement
 
 **For** <the target customer>
@@ -146,6 +148,7 @@ What the customer actually does today. Ranked.
 
 ## Quality bar
 
+- The `**In one line:**` sentence sits directly above the statement. It has at most 20 words, says what the product is, for whom, and the one reason to pick it over the main alternative, in plain words with no method names and no hedging. Good: "Ledgerly is the bookkeeping app that closes a café's month in one evening, not a week."
 - The statement names a specific competitive alternative. The word "competitors" in the plural, unnamed, does not appear.
 - Every alternative ranked above position 3 carries an evidence source, or is labeled ASSUMED and is not ranked first.
 - Every unique attribute has a written verification route an outsider could follow.

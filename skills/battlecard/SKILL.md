@@ -30,7 +30,7 @@ Refuse to run without the first three. Say which one is missing, who can supply 
 
 1. **Check freshness first.** Read the profile's review-by date and the competitor's recent moves. If they launched, changed pricing, or repositioned since the profile was written, refresh the profile before building the card. A stale card is worse than no card because it is confidently wrong.
 
-2. **Write the one-line read.** One sentence on who this competitor is and when they show up in deals. If you cannot write it in one sentence, the profile has not answered its question yet.
+2. **Write the one-line read.** It is the rep's verdict, not a company description. One sentence, at most 25 words, in plain words a new rep gets at once: where they win, where we win, and so how to play the deal. Good: "They win on setup speed for small teams; we win when finance asks for approval chains and audit trails." Bad: "Rivalco is an all-in-one workspace that shows up when ops buyers consolidate tools." If you cannot write it in one sentence, the profile has not answered its question yet.
 
 3. **List where they genuinely win.** Pull from the profile's "where they genuinely beat us" section. Each item is something a buyer would actually choose them for, with a dated public source. No throwaways like "bigger brand".
 
@@ -60,7 +60,7 @@ Refuse to run without the first three. Say which one is missing, who can supply 
 **Built from:** <competitor profile filename and date>
 
 ## One-line read
-<who they are and when they show up>
+<the rep's verdict in at most 25 words: where they win, where we win, how to play the deal>
 
 ## Where they win
 - <strength>. Source: <url>, checked YYYY-MM-DD
@@ -98,6 +98,7 @@ Refuse to run without the first three. Say which one is missing, who can supply 
 
 - [ ] Built from a competitor profile no older than 30 days.
 - [ ] Fits on one page.
+- [ ] The one-line read is the rep's verdict (where they win, where we win, how to play it) in at most 25 words, not a description of the company.
 - [ ] At least one honest weakness on our own side.
 - [ ] Every competitor claim carries a public source and a check date. Zero unsourced claims.
 - [ ] No hedging words standing in for a conflict. Conflicts are escalated and marked.
