@@ -85,7 +85,7 @@ Nine steps. Run them in order. Steps 4 through 6 are the ones that produce the v
 
 8. **Run the fairness pass, which is purely about tone.** Factual verification happened at step 3, deliberately, because a factual correction discovered here would already be baked into the diagnosis. Before assembling, write one paragraph steelmanning the original: the best reason a competent team, under real constraints, shipped this page. Then check the diagnosis still stands against it, and cut any sentence that mocks the company or its team. A teardown that strawmans its target damages the author's credibility more than the target's. The people who wrote that page read these, and the format only has authority if it would survive being read by them.
 
-9. **Assemble and save.** Fill the template, include the `Human ingredient:` line, save it per "Where it lands", and have a reviewer check it before it is published.
+9. **Assemble and save.** Fill the template, include the `Your opinion` line, save it per "Where it lands", and have a reviewer check it before it is published.
 
 ## Output format
 
@@ -94,7 +94,7 @@ Nine steps. Run them in order. Steps 4 through 6 are the ones that produce the v
 
 **Source:** <full public URL>
 **Fetched:** YYYY-MM-DD
-**Human ingredient:** the user's opinion on why this page fails, given YYYY-MM-DD
+**Your opinion, given YYYY-MM-DD:**
 
 > <The user's opinion, quoted verbatim. One to three sentences.>
 
@@ -188,7 +188,7 @@ Why: <one line>
 
 Every line below is checkable. Fail one and the file is not ready for review.
 
-- The file carries a `Human ingredient:` line, and the user's opinion appears quoted verbatim. No opinion given means no teardown was written.
+- The file carries a `Your opinion` line, and the user's opinion appears quoted verbatim. No opinion given means no teardown was written.
 - The source URL and the fetch date are recorded for the torn-down page and for every competitor page cited.
 - All eight Reads carry a mark of Holds, Soft or Fails, and at least one verbatim quote from the page. No Read is blank and no Read is skipped. The word "verdict" is deliberately not used for these: a mark is evidence, and the verdict is the diagnosis, which follows the user's opinion.
 - The swap test names at least two real competitors and quotes the specific lines that survive the swap. "A competitor could say this too" without the competitor named and the line quoted does not count.

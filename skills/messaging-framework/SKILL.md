@@ -98,7 +98,7 @@ Checklist, all of it before step 3:
 **Positioning source:** <path or URL>, dated YYYY-MM-DD  <!-- MISSING here is refusal-triggering: write MISSING plus what would close it, and set Status to REFUSED. Never invent a source. -->
 **ICP source:** <path or URL>, dated YYYY-MM-DD  <!-- if built in step 2a, say so -->
 **Evidence source:** <path or URL>, dated YYYY-MM-DD  <!-- MISSING here downgrades the house to PARTIAL. Write MISSING and label the affected pillars UNPROVEN. -->
-**Human ingredient (own-brand subjects only):** <one line on what the user supplied>  <!-- On an own-brand subject, MISSING here is refusal-triggering. On a client subject write n/a. -->
+**Your description:** <one line on the anecdote, number, or opinion the person running the skill supplied>  <!-- When the subject is that person's own brand, MISSING here is refusal-triggering. On a client or third-party subject write n/a. -->
 **Voice:** brand voice / client voice / DEFAULTED, no voice target supplied
 
 ## Problem evidence

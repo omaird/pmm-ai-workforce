@@ -67,7 +67,7 @@ The five-part sequence in steps 2 through 6 follows the positioning method **Apr
 **Status:** DRAFT / PROPOSED / ADOPTED
 **Method:** April Dunford's positioning approach, applied. Public source: <title and link>.
 **Inputs read:** <path or URL, dated> ; <path or URL, dated>
-**Human ingredient (own-brand subjects only):** <what the user supplied>
+**Your description:** <what the person running the skill wrote about the product, in their words>
 **Validated against real buyer conversations:** yes / no, and how many
 
 ## Positioning statement
@@ -106,7 +106,7 @@ What the customer actually does today. Ranked.
 - <constraint>
 - <what is currently on fire>
 
-**Handed to `icp-persona` as:** <one line>
+**For your ICP work:** <one line>
 
 ## 5. Market category
 

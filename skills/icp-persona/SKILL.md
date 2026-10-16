@@ -66,7 +66,7 @@ Run these steps in order. Step 7 is the one people skip, and it is the one that 
 **Status:** DRAFT / IN USE / SUPERSEDED BY <path>
 **Subject:** <product or brand> | **Segment:** <one segment only>
 **Evidence sources:** <path or URL, dated> ; <path or URL, dated>
-**Human ingredient (own-audience subjects only):** <what the user supplied>
+**Your description:** <what the person running the skill wrote about their audience, in their words>
 **Expected consumers:** <person or team, deliverable> ; <person or team, deliverable>
 
 ## 1. ICP definition
