@@ -34,7 +34,7 @@ Refuse to run without the first three. Say which one is missing, who can supply 
    - **T3:** an incremental update. Earns a changelog entry and a note to sales, and nothing more.
    Write the reason for the ruling so it can be argued with later. Watch for tier inflation: if everything becomes T1, tiering stops carrying information. Applying T1 effort to a T3 launch is the most common way a small team burns itself out. If a stakeholder wants a different tier, state the reasoning and hand the decision to the user rather than negotiating it.
 
-2. **Commit to ONE primary metric, before day 0.** One number the launch either hits or misses, with a target and a measurement window. Timestamp it in the plan. Secondary numbers may be tracked, but they are not the grade. Ask "what is the one number" early and keep asking until someone answers.
+2. **Commit to ONE primary metric, before day 0.** One number the launch either hits or misses, with a target and a measurement window. Timestamp it in the plan. Secondary numbers may be tracked, but they are not the grade. Ask "what is the one number" early and keep asking until someone answers. When the plan is done, write `**The call:**` under the header: one sentence, at most 20 words, naming the tier, the one metric and its target, and what must be true before day 0.
 
 3. **Name the audience.** One primary audience, taken from the ICP or persona card. If the buyer and the signer are different people (common in technical and security sales, where practitioners choose and executives approve), name both and say which one the launch is written for.
 
@@ -60,6 +60,8 @@ Refuse to run without the first three. Say which one is missing, who can supply 
 **Launch date:** YYYY-MM-DD   **Owner:** <name>
 **Tier:** T1 / T2 / T3
 **Primary metric:** <metric, target, window>. Committed YYYY-MM-DD.
+
+**The call:** <one sentence, at most 20 words: the tier, the one metric and its target, and what must be true before day 0>
 
 ## Tier ruling
 <the tier and the reason>
@@ -103,6 +105,7 @@ Retrospective, saved as `YYYY-MM-DD-gtm-retro-<launch-slug>.md`:
 ## Quality bar
 
 - [ ] Exactly one primary metric, with a target, a window, and a commit date before day 0.
+- [ ] `**The call:**` sits directly under the header block. It is one sentence of at most 20 words, in plain words, naming the tier, the one metric and its target, and what must be true before day 0. Good: "T2 launch: 40 teams turn on rotas in 30 days; sales trained before day 0."
 - [ ] Tier ruling stated with its reasoning, and the plan's size matches the tier.
 - [ ] One primary audience named.
 - [ ] Core message taken from existing messaging, not invented; unproven proof points marked.

@@ -55,7 +55,7 @@ Run these steps in order. Step 7 is the one people skip, and it is the one that 
 
 7. **Write the disqualifiers: who this is explicitly not for.** This is the section most often skipped and the most useful one on the card. Write at least three, each with the reason and the tell that lets someone spot it early. Disqualifiers stop a seller wasting a quarter, and they stop a writer aiming copy at a reader who will never buy. If a disqualifier feels uncomfortable to write down, that is usually the sign it belongs on the card.
 
-8. **Label every line, then set the card's own test.** Sweep the whole card and confirm each row is evidenced with a source or carries ASSUMPTION. Open the citation ledger: the named consumers from input 3, and a place to record where the card actually gets cited. Where the card and the customer evidence disagree, write the gap into the card and raise it with the user rather than resolving it in your own favor.
+8. **Label every line, then set the card's own test.** Sweep the whole card and confirm each row is evidenced with a source or carries ASSUMPTION. Open the citation ledger: the named consumers from input 3, and a place to record where the card actually gets cited. Where the card and the customer evidence disagree, write the gap into the card and raise it with the user rather than resolving it in your own favor. Write the `**In one line:**` sentence last, from the finished card: who buys, what makes it urgent, and who it is not for, in at most 20 words.
 
 ## Output format
 
@@ -68,6 +68,8 @@ Run these steps in order. Step 7 is the one people skip, and it is the one that 
 **Evidence sources:** <path or URL, dated> ; <path or URL, dated>
 **Your description:** <what the person running the skill wrote about their audience, in their words>
 **Expected consumers:** <person or team, deliverable> ; <person or team, deliverable>
+
+**In one line:** <one sentence, at most 20 words: who buys, what makes it urgent, and who it is not for>
 
 ## 1. ICP definition
 
@@ -128,6 +130,7 @@ The card exists to be used. Record every output that cites it.
 
 ## Quality bar
 
+- The `**In one line:**` sentence sits directly under the header block. It has at most 20 words and says who buys, what makes it urgent, and who it is not for, in plain words with no method names and no hedging. Good: "Care coordinators buy after a missed visit; agencies under 20 carers never will."
 - Every row on the card is either sourced or carries the literal string ASSUMPTION. There are no unlabeled rows.
 - The behavioral section has at least as many rows as the firmographic section.
 - Every buying-committee row states a question in the buyer's phrasing, ending in a question mark. No summarized wants.

@@ -74,7 +74,7 @@ Checklist, all of it before step 3:
 
    **When the user replies:** apply every correction to the card or the evidence, and record the picks in the Problem evidence table. Treat any opinion the user gives here as a human ingredient for input 5. Show the updated version and repeat until the user says go. The picks become DATA proof rows in step 5, cited exactly as recorded. A statistic the user did not pick never appears in a pillar.
 
-3. **Derive one core message from the positioning, not from the product.** One sentence, 25 words or fewer, naming the buyer and the change they get. Then run the alternative-swap test: substitute the top competitive alternative's name into the sentence. If it still reads as true, the sentence describes the category rather than this product, and you rewrite it. Write the test result into the draft so a reader can check your work.
+3. **Derive one core message from the positioning, not from the product.** One sentence, 25 words or fewer, naming the buyer and the change they get. Then run the alternative-swap test: substitute the top competitive alternative's name into the sentence. If it still reads as true, the sentence describes the category rather than this product, and you rewrite it. Write the test result into the draft so a reader can check your work. Then cut the core message down to the `**In one line:**` sentence under the header: at most 20 words, saying who it is for, the change they get, and why this over the main alternative.
 
 4. **Cluster the evidence into 3 to 4 value pillars.** Work upward from evidence to pillar, never downward from a pillar you liked to evidence you went looking for. A pillar names what the buyer gets, in the buyer's outcome language from the ICP card. If a candidate pillar reads as a feature list, it is not a pillar, it is a spec sheet heading. Three or four is a working constraint: more than four is not memorable to a seller under pressure, and fewer than three usually means one pillar is carrying two arguments. If you state that range as an industry best practice inside the deliverable, cite a public source for it; otherwise present it as a working constraint.
 
@@ -100,6 +100,8 @@ Checklist, all of it before step 3:
 **Evidence source:** <path or URL>, dated YYYY-MM-DD  <!-- MISSING here downgrades the house to PARTIAL. Write MISSING and label the affected pillars UNPROVEN. -->
 **Your description:** <one line on the anecdote, number, or opinion the person running the skill supplied>  <!-- When the subject is that person's own brand, MISSING here is refusal-triggering. On a client or third-party subject write n/a. -->
 **Voice:** brand voice / client voice / DEFAULTED, no voice target supplied
+
+**In one line:** <one sentence, at most 20 words: who it is for, the change they get, and why this over the main alternative>
 
 ## Problem evidence
 
@@ -190,9 +192,11 @@ Check each of these before the draft goes to review. Each one is either true or 
 - Every correction the user made at the checkpoint is applied to the card or the evidence.
 - An ICP card exists for this subject, built by `icp-persona` or already present, and its source is in the header.
 - **[house]** There are 3 or 4 value pillars. Not 2, not 6.
+- **[house]** Each pillar heading after "Pillar N:" has at most 8 words.
 - **[house]** Every pillar has at least one proof row with an openable source, or carries the literal string UNPROVEN in its heading.
 - **[house]** Every UNPROVEN row has a named closing artifact and a named owner.
 - **[house]** The core message is 25 words or fewer and the alternative-swap test result is written into the file.
+- **[house]** The `**In one line:**` sentence sits directly under the header block. It has at most 20 words and says who it is for, the change they get, and why this over the main alternative, in plain words with no method names and no hedging. Good: "Care agencies get every visit covered by 7am, without the spreadsheet rota they use today."
 - No sentence in the document is unfalsifiable. Every claim could be contradicted by evidence a reader could go find.
 - Every factual claim about product marketing practice in general carries a public source.
 - **[house]** The before/after section quotes real copy with a URL or path and the date it was pulled, OR states plainly that no source was reachable and that the user was asked for one. No invented "before", and no before/after section that quietly went missing.
