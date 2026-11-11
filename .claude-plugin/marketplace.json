@@ -1,0 +1,15 @@
+{
+  "name": "pmm-ai-workforce",
+  "description": "Product marketing skills for Claude Code.",
+  "owner": {
+    "name": "omaird",
+    "url": "https://github.com/omaird"
+  },
+  "plugins": [
+    {
+      "name": "pmm-ai-workforce",
+      "source": "./",
+      "description": "Tried and tested product marketing skills for Claude: ICP and persona, positioning, messaging, homepage teardown, competitor profile, battlecard, and launch plan."
+    }
+  ]
+}

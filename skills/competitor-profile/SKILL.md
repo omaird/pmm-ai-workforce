@@ -65,7 +65,7 @@ Every factual claim carries a public source URL and a fetch date. Then:
 - **Conflicting sources escalate. They do not get smoothed over.** If the pricing page says one thing and a review site says another, or two announcements disagree on a funding amount, ask the user (or whoever commissioned the profile) for a ruling. Never resolve a conflict by hedging. "Reportedly", "may have", "some users say", and "appears to" are how an unverified rumor gets laundered into a document that later gets quoted in a sales call. If nobody has ruled by the time the profile is written, mark the point `CONFLICT, ESCALATED YYYY-MM-DD` and leave the claim out of the assessment.
 
 **9. Write the file.**
-Save it as a markdown file named `YYYY-MM-DD-profile-<competitor>.md`. Set the review-by date 30 days out. If you keep a running notes file, add source reliability notes and recurring patterns to it.
+Write the `**In one line:**` sentence last, from the finished profile: the answer to the commissioning question, and the main place they beat you, in at most 20 words. Use only sourced claims. Nothing labelled `UNVERIFIED` or `CONFLICT, ESCALATED` goes in it. Save it as a markdown file named `YYYY-MM-DD-profile-<competitor>.md`. Set the review-by date 30 days out. If you keep a running notes file, add source reliability notes and recurring patterns to it.
 
 ## Output format
 
@@ -77,6 +77,8 @@ Save it as a markdown file named `YYYY-MM-DD-profile-<competitor>.md`. Set the r
 **Review by:** YYYY-MM-DD (30 days)
 **Question this answers:** <the commissioning question>
 **Prior profile:** <filename, or "first profile">
+
+**In one line:** <one sentence, at most 20 words: the answer to the commissioning question, and the main place they beat us>
 
 ## Identity and positioning, in their words
 
@@ -151,6 +153,7 @@ Source: <url> Fetched: YYYY-MM-DD
 
 Each of these is pass or fail. Check them before the profile goes to anyone.
 
+- The `**In one line:**` sentence sits directly under the header block. It has at most 20 words, answers the commissioning question, and names the main place they beat us, in plain words with no hedging. It carries no `UNVERIFIED` or escalated claim. Good: "Rivalco's five-seat floor shuts out solo practitioners, but it beats us on setup speed."
 - Every factual claim in the file carries a public source URL and a fetch date. Zero exceptions.
 - The positioning section quotes the competitor verbatim. No paraphrase presented as their words.
 - Pricing is either quoted with a link and a fetch date, or explicitly marked not public as of a date. No estimated prices anywhere.

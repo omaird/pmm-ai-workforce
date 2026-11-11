@@ -16,11 +16,29 @@ Each skill is one job a product marketer does, written as a method Claude can fo
 | `battlecard` | Builds a one-page battlecard a sales rep can use on a call. |
 | `gtm-plan` | Plans a launch: tier, audience, message, channels, assets, owners, one metric. |
 
-A good order to run them: `icp-persona`, then `positioning-statement`, then `messaging-framework`. The rest work on their own.
+Some skills use the output of another. Run them in this order:
+
+- `icp-persona`, then `positioning-statement`, then `messaging-framework`, then `gtm-plan`.
+- `competitor-profile`, then `battlecard`.
+- `teardown` works on its own.
 
 ## Install
 
-**Claude Code:**
+**Claude Code, as a plugin (easiest).** Type these two commands in Claude Code:
+
+```
+/plugin marketplace add omaird/pmm-ai-workforce
+/plugin install pmm-ai-workforce@pmm-ai-workforce
+```
+
+To get updates later, run these in your terminal, then restart Claude Code:
+
+```bash
+claude plugin marketplace update pmm-ai-workforce
+claude plugin update pmm-ai-workforce@pmm-ai-workforce
+```
+
+**Claude Code, by hand.** Copy the skill folders into your skills folder:
 
 ```bash
 git clone https://github.com/omaird/pmm-ai-workforce.git
@@ -28,7 +46,9 @@ mkdir -p ~/.claude/skills
 cp -r pmm-ai-workforce/skills/* ~/.claude/skills/
 ```
 
-Start a new session. Ask for the job in plain words, for example: "Build a positioning statement for our product."
+To use the skills in one project only, copy them into that project's `.claude/skills/` folder instead.
+
+Then start a new session. Ask for the job in plain words, for example: "Build a positioning statement for our product."
 
 **Claude apps:** zip one skill folder and upload it under Settings, Capabilities, Skills.
 
@@ -36,7 +56,11 @@ Start a new session. Ask for the job in plain words, for example: "Build a posit
 
 - Every skill asks for real input first. If the input is missing, it tells you what it needs instead of making things up.
 - Every claim in an output should be something that could be proven wrong. Filler gets cut.
-- Skills are tested against sample inputs before each release. See `CHANGELOG.md`.
+- Every skill ends with a quality bar: a pass-or-fail checklist for the output. Check the draft against it before you use it.
+
+## Feedback
+
+Found a problem, or have an idea for a skill? [Open an issue](https://github.com/omaird/pmm-ai-workforce/issues).
 
 ## License
 
