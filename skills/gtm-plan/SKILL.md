@@ -33,8 +33,13 @@ Refuse to run without the first three. Say which one is missing, who can supply 
    - **T2:** a significant feature or expansion that changes what a buyer can do. Earns a shorter plan and a lighter comms pack.
    - **T3:** an incremental update. Earns a changelog entry and a note to sales, and nothing more.
    Write the reason for the ruling so it can be argued with later. Watch for tier inflation: if everything becomes T1, tiering stops carrying information. Applying T1 effort to a T3 launch is the most common way a small team burns itself out. If a stakeholder wants a different tier, state the reasoning and hand the decision to the user rather than negotiating it.
+   The whole plan, from the title to the last line, fits the tier: T3 250 to 400 words, T2 600 to 1,000, T1 1,000 to 1,800. Table cells count. Rule the tier first, then size every section to it: one short line per row, one line per risk, and no sentence that repeats the inputs back. Keep every section; a T3 section is a line or two. Count before you finish. Over the top of the band is too long: cut it again. Under the floor is fine when every section is present; never pad to reach it. The retrospective file is not counted.
 
-2. **Commit to ONE primary metric, before day 0.** One number the launch either hits or misses, with a target and a measurement window. Timestamp it in the plan. Secondary numbers may be tracked, but they are not the grade. Ask "what is the one number" early and keep asking until someone answers. When the plan is done, write `**The call:**` under the header: one sentence, at most 20 words, naming the tier, the one metric and its target, and what must be true before day 0.
+2. **Commit to ONE primary metric, before day 0.** One number the launch either hits or misses, with a target and a measurement window. Timestamp it in the plan. Secondary numbers may be tracked, but they are not the grade. Ask "what is the one number" first, then write the Primary metric line in one of three ways:
+   - **Committed,** when someone commits to the number before day 0: `<metric, target, window>. Committed YYYY-MM-DD.`
+   - **Committed on day 0,** when it is committed on day 0 itself: `<metric, target, window>. Committed YYYY-MM-DD, on day 0, not before it.` The Readiness gate gets an unchecked box: `- [ ] Primary metric committed before day 0`.
+   - **Proposed,** when nobody can commit to one number in this session: propose one metric with a target and a window, and write `<metric, target, window>. PROPOSED by Claude on YYYY-MM-DD, not committed. Commit it before day 0.` The Readiness gate gets an unchecked box: `- [ ] Primary metric committed`. Never write "Committed" for a metric you picked.
+   When the plan is done, write `**The call:**` under the header: one sentence, at most 20 words, naming the tier, the one metric and its target, and what must be true before day 0. If the metric is PROPOSED, The call says so. Count the words before you write it. Over 20 is too long: cut it again.
 
 3. **Name the audience.** One primary audience, taken from the ICP or persona card. If the buyer and the signer are different people (common in technical and security sales, where practitioners choose and executives approve), name both and say which one the launch is written for.
 
@@ -42,7 +47,7 @@ Refuse to run without the first three. Say which one is missing, who can supply 
 
 5. **Sequence the channels with dates.** Only channels that exist and have an owner. Pre-launch, day 0, and the follow-through window, each with dates.
 
-6. **List the assets.** Each asset gets an owner and a due date. Size the list to the tier. A T3 asset list is two lines.
+6. **List the assets.** Each asset gets an owner and a due date. Size the list to the tier. A T3 asset list is two lines. Wherever you fill an owner the user did not give, label it "(proposed)" where it appears. Never present a pick as the user's choice.
 
 7. **Name dependencies and risks.** What has to be true for the launch to go (product readiness, pricing decided, legal review, sales trained), and what could move the date.
 
@@ -59,7 +64,7 @@ Refuse to run without the first three. Say which one is missing, who can supply 
 
 **Launch date:** YYYY-MM-DD   **Owner:** <name>
 **Tier:** T1 / T2 / T3
-**Primary metric:** <metric, target, window>. Committed YYYY-MM-DD.
+**Primary metric:** <metric, target, window>. <one of: "Committed YYYY-MM-DD." / "Committed YYYY-MM-DD, on day 0, not before it." / "PROPOSED by Claude on YYYY-MM-DD, not committed. Commit it before day 0.">
 
 **The call:** <one sentence, at most 20 words: the tier, the one metric and its target, and what must be true before day 0>
 
@@ -104,14 +109,14 @@ Retrospective, saved as `YYYY-MM-DD-gtm-retro-<launch-slug>.md`:
 
 ## Quality bar
 
-- [ ] Exactly one primary metric, with a target, a window, and a commit date before day 0.
-- [ ] `**The call:**` sits directly under the header block. It is one sentence of at most 20 words, in plain words, naming the tier, the one metric and its target, and what must be true before day 0. Good: "T2 launch: 40 teams turn on rotas in 30 days; sales trained before day 0."
-- [ ] Tier ruling stated with its reasoning, and the plan's size matches the tier.
+- [ ] Exactly one primary metric, with a target and a window, written as one of the three lines in step 2: Committed, Committed on day 0, or PROPOSED. Never "Committed" for a metric Claude picked. A day-0 or PROPOSED metric has its unchecked box in the Readiness gate.
+- [ ] `**The call:**` sits directly under the header block. It is one sentence of at most 20 words, in plain words, naming the tier, the one metric and its target, and what must be true before day 0. If the metric is PROPOSED, The call says so. Good: "T2 launch: 40 teams turn on rotas in 30 days; sales trained before day 0." Good: "If legal clears the claims before day 0, this T1 launch targets 500 paid accounts in 60 days." Do not copy the shape of these examples.
+- [ ] Tier ruling stated with its reasoning. The whole plan, from the title to the last line, stays under the top of its tier's band: T3 400 words, T2 1,000, T1 1,800. Table cells count. The retrospective file is not counted.
 - [ ] One primary audience named.
 - [ ] Core message taken from existing messaging, not invented; unproven proof points marked.
 - [ ] Every channel has an owner and dates. No channel nobody runs.
-- [ ] Every asset has an owner and a due date.
+- [ ] Every asset has an owner and a due date. An owner the user did not name is marked "(proposed)".
 - [ ] A readiness gate exists and is checkable.
 - [ ] No price set in the plan; pricing is presented as options for the user to decide.
 - [ ] "What this plan did not settle" is not empty.
-- [ ] No em-dashes.
+- [ ] No em-dashes in your own prose. Em-dashes inside quoted material, such as the core message lifted from the messaging framework, are preserved exactly.
